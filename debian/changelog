@@ -1,3 +1,36 @@
+libtest-without-module-perl (0.21-1) unstable; urgency=medium
+
+  * Import upstream version 0.21.
+  * Add new test dependency libmodule-load-conditional-perl.
+  * debian/watch: use uscan macros.
+  * Update years of packaging copyright.
+  * Declare compliance with Debian Policy 4.6.1.
+  * Set Rules-Requires-Root: no.
+  * Wrap long line in previous changelog entry.
+
+ -- gregor herrmann <gregoa@debian.org>  Fri, 16 Dec 2022 19:59:02 +0100
+
+libtest-without-module-perl (0.20-3) unstable; urgency=medium
+
+  [ Debian Janitor ]
+  * Apply multi-arch hints.
+    + libtest-without-module-perl: Add Multi-Arch: foreign.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Sat, 19 Nov 2022 20:58:36 +0000
+
+libtest-without-module-perl (0.20-2) unstable; urgency=medium
+
+  [ Damyan Ivanov ]
+  * declare conformance with Policy 4.1.3 (no changes needed)
+
+  [ Salvatore Bonaccorso ]
+  * Update Vcs-* headers for switch to salsa.debian.org
+
+  [ gregor herrmann ]
+  * debian/watch: use uscan version 4.
+
+ -- Jelmer Vernooĳ <jelmer@debian.org>  Tue, 28 Jun 2022 19:44:26 +0100
+
 libtest-without-module-perl (0.20-1) unstable; urgency=medium
 
   [ Salvatore Bonaccorso ]
@@ -60,20 +93,20 @@ libtest-without-module-perl (0.17-1) unstable; urgency=low
   [ Rene Mayorga ]
   * New upstream release
   * debian/control: change my email address
-  * debian/copyright: 
+  * debian/copyright:
     + update upstream copyright years
     + separate debian/* copyright per member using debian/changalog
 
  -- Rene Mayorga <rmayorga@debian.org>  Wed, 21 Jan 2009 14:27:27 -0600
 
 libtest-without-module-perl (0.16-1) unstable; urgency=low
-  
+
   [ David Paleino ]
   * debian/control: removed myself from Uploaders
-  
+
   [ Rene Mayorga ]
   * New upstream release
-  * debian/control 
+  * debian/control
     + set dephelper and compat level to 7
     + add myself to uploaders
     + set Standards-Version to 3.8.0 ( no changes needed )

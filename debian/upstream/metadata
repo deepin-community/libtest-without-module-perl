@@ -1,6 +1,6 @@
 ---
 Archive: CPAN
-Contact: Max Maischein <corion@cpan.org>
-Name: Test-Without-Module
+Bug-Database: https://github.com/Corion/test-without-module/issues
+Bug-Submit: https://github.com/Corion/test-without-module/issues/new
 Repository: https://github.com/Corion/test-without-module.git
 Repository-Browse: https://github.com/Corion/test-without-module

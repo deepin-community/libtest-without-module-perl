@@ -4,17 +4,20 @@ Uploaders: gregor herrmann <gregoa@debian.org>
 Section: perl
 Testsuite: autopkgtest-pkg-perl
 Priority: optional
-Build-Depends: debhelper (>= 9)
-Build-Depends-Indep: perl
-Standards-Version: 4.0.0
-Vcs-Browser: https://anonscm.debian.org/cgit/pkg-perl/packages/libtest-without-module-perl.git
-Vcs-Git: https://anonscm.debian.org/git/pkg-perl/packages/libtest-without-module-perl.git
+Build-Depends: debhelper-compat (= 13)
+Build-Depends-Indep: libmodule-load-conditional-perl <!nocheck>,
+                     perl
+Standards-Version: 4.6.1
+Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libtest-without-module-perl
+Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libtest-without-module-perl.git
 Homepage: https://metacpan.org/release/Test-Without-Module
+Rules-Requires-Root: no
 
 Package: libtest-without-module-perl
 Architecture: all
-Depends: ${perl:Depends},
-         ${misc:Depends}
+Multi-Arch: foreign
+Depends: ${misc:Depends},
+         ${perl:Depends}
 Description: test fallback behaviour in absence of modules
  Test::Without::Module allows you to deliberately hide modules from a program
  even though they are installed. This is mostly useful for testing modules
