@@ -1,2 +1,2 @@
-version=3
-https://metacpan.org/release/Test-Without-Module .*/Test-Without-Module-([\.\d]+)\.(?:tar\.gz|tar|tgz)$
+version=4
+https://metacpan.org/release/Test-Without-Module   .*/Test-Without-Module-v?@ANY_VERSION@@ARCHIVE_EXT@$
