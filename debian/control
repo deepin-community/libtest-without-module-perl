@@ -7,7 +7,7 @@ Priority: optional
 Build-Depends: debhelper-compat (= 13)
 Build-Depends-Indep: libmodule-load-conditional-perl <!nocheck>,
                      perl
-Standards-Version: 4.6.1
+Standards-Version: 4.7.0
 Vcs-Browser: https://salsa.debian.org/perl-team/modules/packages/libtest-without-module-perl
 Vcs-Git: https://salsa.debian.org/perl-team/modules/packages/libtest-without-module-perl.git
 Homepage: https://metacpan.org/release/Test-Without-Module
