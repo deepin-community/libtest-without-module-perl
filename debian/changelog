@@ -1,3 +1,15 @@
+libtest-without-module-perl (0.23-1) unstable; urgency=medium
+
+  * Import upstream version 0.23.
+  * Update years of upstream and packaging copyright.
+  * Update debian/upstream/metadata.
+  * Update upstream license.
+  * Declare compliance with Debian Policy 4.7.0.
+  * Add debian/tests/pkg-perl/smoke-skip to skip new test which needs
+    Makefile.PL.
+
+ -- gregor herrmann <gregoa@debian.org>  Sat, 27 Jul 2024 02:49:46 +0200
+
 libtest-without-module-perl (0.21-1) unstable; urgency=medium
 
   * Import upstream version 0.21.
